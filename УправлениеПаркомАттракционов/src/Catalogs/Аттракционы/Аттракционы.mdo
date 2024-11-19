@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="474018e4-220e-4f75-b069-79d6dfe08340">
+  <producedTypes>
+    <objectType typeId="04af8571-eb75-4b6f-96f9-ec844b1f8801" valueTypeId="f4182370-698e-416b-8588-19e478aa8e59"/>
+    <refType typeId="52445bd9-0bc1-4bad-b674-ea0c5eb2bf01" valueTypeId="f0a89e2f-132f-4e07-940b-300be39e1072"/>
+    <selectionType typeId="188390e8-8809-4bfd-9846-374294ac7318" valueTypeId="6e9a3793-1595-4eb8-8b45-9acda89de1d5"/>
+    <listType typeId="b2802eff-0197-493f-bb22-e18e1be92565" valueTypeId="40c6922d-e24f-48de-834d-47bf590a8811"/>
+    <managerType typeId="e7947ff2-72bb-4765-a498-b8f05c9a0f37" valueTypeId="2d7b52b6-088a-4fb4-b1ce-df8cf283ced2"/>
+  </producedTypes>
+  <name>Аттракционы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аттракционы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Аттракционы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Аттракционы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="8d5dba82-1d59-44f7-8cfc-8d27975124d1">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
