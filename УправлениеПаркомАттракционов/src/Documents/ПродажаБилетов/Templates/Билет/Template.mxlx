@@ -36,7 +36,7 @@
 	</columns>
 	<columns>
 		<id>c6b9f0d3-e6f9-4db0-aba2-4c7844e04920</id>
-		<size>5</size>
+		<size>6</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -138,7 +138,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Аттракцион</v8:content>
+							<v8:content>Услуга</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -146,6 +146,17 @@
 			<c>
 				<c>
 					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Детали</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>10</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -156,7 +167,7 @@
 			</c>
 			<c>
 				<c>
-					<f>9</f>
+					<f>11</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -167,7 +178,7 @@
 			</c>
 			<c>
 				<c>
-					<f>9</f>
+					<f>10</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -185,25 +196,36 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>10</f>
-					<parameter>Аттракцион</parameter>
+					<f>12</f>
+					<parameter>Номеклатура</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Детали</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
 					<parameter>Стоимость</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>10</f>
+					<f>15</f>
 					<parameter>Кличество</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>16</f>
 					<parameter>Сумма</parameter>
 				</c>
 			</c>
@@ -223,7 +245,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>12</f>
+					<f>17</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -234,7 +256,7 @@
 			</c>
 			<c>
 				<c>
-					<f>13</f>
+					<f>18</f>
 					<parameter>СуммаДокумента</parameter>
 				</c>
 			</c>
@@ -248,26 +270,6 @@
 		<c>2</c>
 		<w>1</w>
 	</merge>
-	<namedItem xsi:type="NamedItemCells">
-		<name>Аттракционы</name>
-		<area>
-			<type>Rows</type>
-			<beginRow>6</beginRow>
-			<endRow>6</endRow>
-			<beginColumn>-1</beginColumn>
-			<endColumn>-1</endColumn>
-		</area>
-	</namedItem>
-	<namedItem xsi:type="NamedItemCells">
-		<name>АттракционыШапка</name>
-		<area>
-			<type>Rows</type>
-			<beginRow>4</beginRow>
-			<endRow>5</endRow>
-			<beginColumn>-1</beginColumn>
-			<endColumn>-1</endColumn>
-		</area>
-	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Заголовок</name>
 		<area>
@@ -284,6 +286,27 @@
 			<type>Rows</type>
 			<beginRow>8</beginRow>
 			<endRow>9</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>УслугиТаблЧасть</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>6</beginRow>
+			<endRow>6</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+			<columnsID>c6b9f0d3-e6f9-4db0-aba2-4c7844e04920</columnsID>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>УслугиТаблЧастьШапка</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>4</beginRow>
+			<endRow>5</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -331,6 +354,28 @@
 		<columnSizeChange>QuickChange</columnSizeChange>
 	</format>
 	<format>
+		<font>1</font>
+		<border>0</border>
+		<width>144</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Text</fillType>
+		<autoIndent>0</autoIndent>
+		<columnSizeChange>QuickChange</columnSizeChange>
+	</format>
+	<format>
+		<font>1</font>
+		<border>0</border>
+		<width>256</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Text</fillType>
+		<autoIndent>0</autoIndent>
+		<columnSizeChange>QuickChange</columnSizeChange>
+	</format>
+	<format>
 		<border>0</border>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
@@ -340,16 +385,48 @@
 	</format>
 	<format>
 		<border>0</border>
-		<horizontalAlignment>Right</horizontalAlignment>
+		<horizontalAlignment>Left</horizontalAlignment>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Block</textPlacement>
-		<fillType>Parameter</fillType>
+		<fillType>Text</fillType>
 		<format>
 			<v8:item>
 				<v8:lang>#</v8:lang>
 				<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
 			</v8:item>
 		</format>
+		<autoIndent>0</autoIndent>
+		<columnSizeChange>QuickChange</columnSizeChange>
+	</format>
+	<format>
+		<border>0</border>
+		<width>144</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Block</textPlacement>
+		<fillType>Parameter</fillType>
+		<format/>
+		<autoIndent>0</autoIndent>
+		<columnSizeChange>QuickChange</columnSizeChange>
+	</format>
+	<format>
+		<border>0</border>
+		<width>256</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+		<autoIndent>0</autoIndent>
+		<columnSizeChange>QuickChange</columnSizeChange>
+	</format>
+	<format>
+		<border>0</border>
+		<width>144</width>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Block</textPlacement>
+		<fillType>Parameter</fillType>
+		<format/>
 		<autoIndent>0</autoIndent>
 		<columnSizeChange>QuickChange</columnSizeChange>
 	</format>

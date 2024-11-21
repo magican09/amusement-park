@@ -15,6 +15,8 @@
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ПродажаБилетов.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.ПродажаБилетов</basedOn>
+  <basedOn>Catalog.Аттракционы</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -50,19 +52,19 @@
       <objectType typeId="f64d47ae-b21c-4bd1-9a82-d800e37f9aca" valueTypeId="0f060df7-6409-4053-83a4-6ebf51a99445"/>
       <rowType typeId="b28326a2-1902-4507-b288-d0dfc0b4359e" valueTypeId="73266b5d-96cb-4a2f-90d4-7d3e94caaed2"/>
     </producedTypes>
-    <name>Аттракционы</name>
+    <name>Услуги</name>
     <synonym>
       <key>ru</key>
-      <value>Аттракционы</value>
+      <value>Услуги</value>
     </synonym>
-    <attributes uuid="961271c3-643f-4135-afab-0fec5a2ee749">
-      <name>Аттракцион</name>
+    <attributes uuid="3ae4534b-1e65-48dd-9abd-befc0e4be59c">
+      <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
-        <value>Аттракцион</value>
+        <value>Номенклатура</value>
       </synonym>
       <type>
-        <types>CatalogRef.Аттракционы</types>
+        <types>CatalogRef.Номенклатура</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
